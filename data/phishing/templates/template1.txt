@@ -1,0 +1,11 @@
+Dear ^firstname^ ^lastname^,
+
+We regret to inform you that your account is currently at risk of suspension due to suspicious activity. To maintain uninterrupted access to your account and to safeguard your data, please click on the link below, verifying and updating your account information immediately. Failure to do so may result in permanent account suspension.
+
+<a href="">Update Account</a>
+
+We appreciate your prompt attention to this matter. Thank you for choosing our services.
+
+Sincerely,
+
+Company XYZ

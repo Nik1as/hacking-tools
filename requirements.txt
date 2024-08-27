@@ -1,0 +1,14 @@
+requests
+aiohttp
+aiodns
+aiomysql
+aiopg
+aioftp
+asyncssh
+scapy
+beautifulsoup4
+pypdf
+python-whois
+futures
+cryptography
+nvdlib

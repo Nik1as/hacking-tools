@@ -1,0 +1,486 @@
+{
+  "linux": {
+    "separators": [
+      [
+        "..",
+        "/"
+      ],
+      [
+        "..",
+        "//"
+      ],
+      [
+        "..",
+        "%2F"
+      ],
+      [
+        "..",
+        "%2F%2F"
+      ],
+      [
+        "....",
+        "//"
+      ],
+      [
+        "..",
+        "////"
+      ]
+    ],
+    "files": [
+      [
+        {
+          "path": [
+            "etc",
+            "passwd"
+          ],
+          "content": [
+            "root:x",
+            "daemon:",
+            "bin:",
+            "sys:",
+            "sync:",
+            "games:"
+          ]
+        },
+        {
+          "path": [
+            "etc",
+            "group"
+          ],
+          "content": [
+            "root:x:0:",
+            "daemon:x:1:",
+            "bin:x:2:",
+            "sys:x:3:"
+          ]
+        },
+        {
+          "path": [
+            "etc",
+            "hosts"
+          ],
+          "content": [
+            "127.0.0.1    localhost"
+          ]
+        },
+        {
+          "path": [
+            "etc",
+            "motd"
+          ],
+          "content": [
+            "ABSOLUTELY NO WARRANTY",
+            "Linux system are free software"
+          ]
+        },
+        {
+          "path": [
+            "proc",
+            "self",
+            "environ"
+          ],
+          "content": [
+            "LS_COLORS=",
+            "HOME=/home/"
+          ]
+        },
+        {
+          "path": [
+            "proc",
+            "version"
+          ],
+          "content": [
+            "gcc version",
+            "SSH_TTY=",
+            "SSH_CONNECTION="
+          ]
+        },
+        {
+          "path": [
+            "proc",
+            "cmdline"
+          ],
+          "content": [
+            "BOOT_IMAGE=",
+            "biosdevname="
+          ]
+        },
+        {
+          "path": [
+            "proc",
+            "sched_debug"
+          ],
+          "content": [
+            "systemd",
+            "khungtaskd",
+            "ipv6_addrconf"
+          ]
+        },
+        {
+          "path": [
+            "proc",
+            "mounts"
+          ],
+          "content": [
+            "/dev/sda1",
+            "name=systemd",
+            "cgroup/memory",
+            "kernel/debug"
+          ]
+        },
+        {
+          "path": [
+            "proc",
+            "net",
+            "arp"
+          ],
+          "content": [
+            "HW type",
+            "HW address"
+          ]
+        },
+        {
+          "path": [
+            "proc",
+            "net",
+            "route"
+          ],
+          "content": [
+            "RefCnt",
+            "Iface"
+          ]
+        },
+        {
+          "path": [
+            "proc",
+            "net",
+            "tcp"
+          ],
+          "content": [
+            "local_address",
+            "rem_address",
+            "rx_queue",
+            "retrnsmt"
+          ]
+        },
+        {
+          "path": [
+            "proc",
+            "net",
+            "udp"
+          ],
+          "content": [
+            "local_address",
+            "rem_address",
+            "rx_queue",
+            "retrnsmt"
+          ]
+        },
+        {
+          "path": [],
+          "content": [
+            "GET /",
+            "HTTP/1.1"
+          ]
+        },
+        {
+          "path": [
+            "var",
+            "log",
+            "apache",
+            "access.log"
+          ],
+          "content": [
+            "[notice]",
+            "[error]"
+          ]
+        },
+        {
+          "path": [
+            "var",
+            "log",
+            "apache",
+            "error.log"
+          ],
+          "content": [
+            "[notice]",
+            "[error]"
+          ]
+        },
+        {
+          "path": [
+            "var",
+            "log",
+            "httpd",
+            "error_log"
+          ],
+          "content": [
+            "[notice]",
+            "[error]"
+          ]
+        },
+        {
+          "path": [
+            "usr",
+            "local",
+            "apache",
+            "log",
+            "error_log"
+          ],
+          "content": [
+            "[notice]",
+            "[error]"
+          ]
+        },
+        {
+          "path": [
+            "usr",
+            "local",
+            "apache2",
+            "log",
+            "error_log"
+          ],
+          "content": [
+            "[notice]",
+            "[error]"
+          ]
+        }
+      ]
+    ]
+  },
+  "windows": {
+    "separators": [
+      [
+        "..",
+        "\\"
+      ],
+      [
+        "..",
+        "\\\\"
+      ],
+      [
+        "..",
+        "%5C"
+      ],
+      [
+        "..",
+        "%5C%5C"
+      ]
+    ],
+    "files": [
+      {
+        "path": [
+          "boot.ini"
+        ],
+        "content": [
+          "screenEnabled",
+          "[BOOTCTR9]",
+          "splash = "
+        ]
+      },
+      {
+        "path": [
+          "WINDOWS",
+          "win.ini"
+        ],
+        "content": [
+          "[mci extensions]",
+          "adts=MPEGVideo"
+        ]
+      },
+      {
+        "path": [
+          "WINDOWS",
+          "php.ini"
+        ],
+        "content": [
+          "About php.ini",
+          "log_errors",
+          "output_buffering"
+        ]
+      },
+      {
+        "path": [
+          "WINDOWS",
+          "system32",
+          "drivers",
+          "etc",
+          "hosts"
+        ],
+        "content": [
+          "127.0.0.1    localhost"
+        ]
+      },
+      {
+        "path": [
+          "WINNT",
+          "php.ini"
+        ],
+        "content": [
+          "About php.ini",
+          "log_errors",
+          "output_buffering"
+        ]
+      },
+      {
+        "path": [
+          "php",
+          "php.ini"
+        ],
+        "content": [
+          "About php.ini",
+          "log_errors",
+          "output_buffering"
+        ]
+      },
+      {
+        "path": [
+          "php5",
+          "php.ini"
+        ],
+        "content": [
+          "About php.ini",
+          "log_errors",
+          "output_buffering"
+        ]
+      },
+      {
+        "path": [
+          "php4",
+          "php.ini"
+        ],
+        "content": [
+          "About php.ini",
+          "log_errors",
+          "output_buffering"
+        ]
+      },
+      {
+        "path": [
+          "apache",
+          "php",
+          "php.ini"
+        ],
+        "content": [
+          "About php.ini",
+          "log_errors",
+          "output_buffering"
+        ]
+      },
+      {
+        "path": [
+          "xampp",
+          "php",
+          "php.ini"
+        ],
+        "content": [
+          "About php.ini",
+          "log_errors",
+          "output_buffering"
+        ]
+      },
+      {
+        "path": [
+          "home2",
+          "bin",
+          "stable",
+          "apache",
+          "php.ini"
+        ],
+        "content": [
+          "About php.ini",
+          "log_errors",
+          "output_buffering"
+        ]
+      },
+      {
+        "path": [
+          "home",
+          "bin",
+          "stable",
+          "apache",
+          "php.ini"
+        ],
+        "content": [
+          "About php.ini",
+          "log_errors",
+          "output_buffering"
+        ]
+      },
+      {
+        "path": [
+          "Program Files",
+          "Apache Group",
+          "Apache",
+          "logs",
+          "access.log"
+        ],
+        "content": [
+          "GET /",
+          "HTTP/1.1"
+        ]
+      },
+      {
+        "path": [
+          "Program Files",
+          "Apache Group",
+          "Apache",
+          "logs",
+          "error.log"
+        ],
+        "content": [
+          "[notice]",
+          "[error]"
+        ]
+      },
+      {
+        "path": [
+          "Program Files",
+          "FileZilla Server",
+          "FileZilla Server.xml"
+        ],
+        "content": [
+          "Name=\"filezilla\"",
+          "FileZillaServer"
+        ]
+      },
+      {
+        "path": [
+          "Program Files (x86)",
+          "Apache Group",
+          "Apache",
+          "logs",
+          "access.log"
+        ],
+        "content": [
+          "GET /",
+          "HTTP/1.1"
+        ]
+      },
+      {
+        "path": [
+          "Program Files (x86)",
+          "Apache Group",
+          "Apache",
+          "logs",
+          "error.log"
+        ],
+        "content": [
+          "[notice]",
+          "[error]"
+        ]
+      },
+      {
+        "path": [
+          "Program Files (x86)",
+          "FileZilla Server",
+          "FileZilla Server.xml"
+        ],
+        "content": [
+          "Name=\"filezilla\"",
+          "FileZillaServer"
+        ]
+      }
+    ]
+  }
+}

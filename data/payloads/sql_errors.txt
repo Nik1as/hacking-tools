@@ -1,0 +1,14 @@
+mysql_fetch_array()
+You have an error in your SQL syntax
+error in your SQL syntax
+mysql_numrows()
+Input String not in a correct format
+mysql_fetch
+Error Occurred While Processing Request
+Server Error
+Microsoft OLE DB Provider for ODBC Drivers Error
+Invalid Querystring
+VBScript Runtime
+Syntax Error
+GetArray()
+FetchRows()
